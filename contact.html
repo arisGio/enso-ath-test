@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact – Ensō Athens Martial Arts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="nav">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo.webp" alt="Ensō Athens Martial Arts" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li class="has-dropdown">
+          <a href="#" data-i18n="nav.services">Services</a>
+          <ul class="dropdown">
+            <li><a href="jiu-jitsu.html" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a></li>
+            <li>
+              <a href="functional-training.html" data-i18n="nav.functional">Functional Training</a>
+            </li>
+            <li><a href="kids.html" data-i18n="nav.kids">Kids & Youth</a></li>
+            <li><a href="corporate.html" data-i18n="nav.corporate">Corporate Training</a></li>
+            <li><a href="schedule.html" data-i18n="nav.schedule">Weekly Schedule</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="active" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="tel:+306971767652" class="nav-phone">+30 697 176 7652</a></li>
+        <li class="lang-switcher">
+          <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
+          <button class="lang-btn" data-lang="el" aria-label="Ελληνικά">🇬🇷</button>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="page-hero">
+      <p class="page-hero-eyebrow" data-i18n="contact.hero.eyebrow">Get in Touch</p>
+      <h1>
+        CONTACT
+        <br />
+        US
+      </h1>
+      <p data-i18n="contact.hero.p">
+        Have questions about our classes? Ready to book a free trial? We're available 7 days a week.
+      </p>
+    </section>
+
+    <div class="contact-grid" id="form">
+      <div class="contact-info fade-up">
+        <h2 data-i18n-html="contact.info.h2">
+          We're Here to
+          <br />
+          Support Your Journey
+        </h2>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style="width: 16px; height: 16px; vertical-align: middle; flex-shrink: 0"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l1.8-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h4 data-i18n="contact.call.h4">Call or Text</h4>
+            <a href="tel:+306971767652">+30 697 176 7652</a>
+            <p
+              style="font-size: 13px; margin-top: 4px; color: rgba(245, 240, 232, 0.45)"
+              data-i18n="contact.call.sub"
+            >
+              Available 24/7, 7 days a week
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style="width: 16px; height: 16px; vertical-align: middle; flex-shrink: 0"
+            >
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </div>
+          <div>
+            <h4 data-i18n="contact.email.h4">Email</h4>
+            <a href="mailto:ensoathens@gmail.com">ensoathens@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style="width: 16px; height: 16px; vertical-align: middle; flex-shrink: 0"
+            >
+              <path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div>
+            <h4 data-i18n="contact.visit.h4">Visit Us</h4>
+            <a href="https://share.google/P7tDznBGuPWAmPiDz" target="_blank" rel="noopener">
+              Thessalonikis 35, Athens 118 51, Greece
+            </a>
+            <p
+              style="font-size: 13px; margin-top: 4px; color: rgba(245, 240, 232, 0.45)"
+              data-i18n="contact.visit.sub"
+            >
+              Easy access from public transport · Nearby parking
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top: 48px; padding-top: 48px; border-top: 1px solid var(--border)">
+          <p
+            class="section-eyebrow"
+            style="margin-bottom: 16px"
+            data-i18n="contact.programs.eyebrow"
+          >
+            Programs Available
+          </p>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px">
+            <li
+              style="
+                font-size: 14px;
+                color: var(--off-white);
+                padding: 10px 0;
+                border-bottom: 1px solid var(--border);
+              "
+              data-i18n="contact.prog.bjj"
+            >
+              Brazilian Jiu-Jitsu (Gi & No-Gi)
+            </li>
+            <li
+              style="
+                font-size: 14px;
+                color: var(--off-white);
+                padding: 10px 0;
+                border-bottom: 1px solid var(--border);
+              "
+              data-i18n="contact.prog.grap"
+            >
+              Grappling & Wrestling
+            </li>
+            <li
+              style="
+                font-size: 14px;
+                color: var(--off-white);
+                padding: 10px 0;
+                border-bottom: 1px solid var(--border);
+              "
+              data-i18n="contact.prog.mma"
+            >
+              MMA
+            </li>
+            <li
+              style="
+                font-size: 14px;
+                color: var(--off-white);
+                padding: 10px 0;
+                border-bottom: 1px solid var(--border);
+              "
+              data-i18n="contact.prog.sc"
+            >
+              Strength & Conditioning
+            </li>
+            <li
+              style="font-size: 14px; color: var(--off-white); padding: 10px 0"
+              data-i18n="contact.prog.kids"
+            >
+              Kids & Youth Martial Arts
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap fade-up">
+        <h2 data-i18n-html="contact.form.h2">
+          Book Your
+          <br />
+          Free Trial
+        </h2>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              data-i18n-placeholder="form.name"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              data-i18n-placeholder="form.email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="tel"
+              name="phone"
+              data-i18n-placeholder="form.phone"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <select
+              name="program"
+              style="
+                width: 100%;
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid rgba(245, 240, 232, 0.15);
+                padding: 14px 0;
+                font-family: var(--font-body);
+                font-size: 15px;
+                font-weight: 300;
+                color: rgba(245, 240, 232, 0.7);
+                outline: none;
+                cursor: pointer;
+                appearance: none;
+              "
+            >
+              <option
+                value=""
+                disabled
+                selected
+                style="background: #111"
+                data-i18n="contact.form.program"
+              >
+                Interested in…
+              </option>
+              <option value="bjj" style="background: #111" data-i18n="contact.form.opt.bjj">
+                Brazilian Jiu-Jitsu
+              </option>
+              <option value="grappling" style="background: #111" data-i18n="contact.form.opt.grap">
+                Grappling
+              </option>
+              <option value="mma" style="background: #111" data-i18n="contact.form.opt.mma">
+                MMA
+              </option>
+              <option value="sc" style="background: #111" data-i18n="contact.form.opt.sc">
+                Strength & Conditioning
+              </option>
+              <option value="kids" style="background: #111" data-i18n="contact.form.opt.kids">
+                Kids & Youth
+              </option>
+              <option value="corporate" style="background: #111" data-i18n="contact.form.opt.corp">
+                Corporate Training
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              rows="5"
+              data-i18n-placeholder="contact.form.message"
+              placeholder="Any questions or additional info…"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-btn" data-i18n="contact.form.btn">
+            Send Message
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- MAP EMBED -->
+    <div style="height: 400px; overflow: hidden; border-top: 1px solid var(--border)">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.095245143133!2d23.71036797649176!3d37.97490650060553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd9d8508fc35%3A0x43e80050a02b8c3d!2sEns%C5%8D%20Athens%20Martial%20Arts%20%26%20Jiu%20Jitsu!5e0!3m2!1sel!2sus!4v1776618907137!5m2!1sel!2sus"
+        width="100%"
+        height="100%"
+        style="border: 0; filter: invert(90%) hue-rotate(180deg)"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Ensō Athens Martial Arts location"
+      ></iframe>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">ENSŌ</span>
+          <p data-i18n="footer.tagline">Athens Martial Arts</p>
+          <p class="footer-addr" data-i18n="footer.addr">Thessalonikis 35, Athens 11851, Greece</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="jiu-jitsu.html" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="tel:+306971767652">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l1.8-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+              />
+            </svg>
+            +30 697 176 7652
+          </a>
+          <a href="mailto:ensoathens@gmail.com">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            ensoathens@gmail.com
+          </a>
+          <p data-i18n="footer.available">Available 24/7</p>
+          <div class="footer-social">
+            <a
+              href="https://www.instagram.com/enso_ath/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100081978456729"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a
+              href="https://www.youtube.com/@EnsoATH"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58a2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copy">© 2025 Ensō Athens Martial Arts. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

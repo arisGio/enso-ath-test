@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brazilian Jiu-Jitsu Athens – Ensō Athens Martial Arts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="nav">
+      <a href="index.html" class="nav-logo">
+        <img
+          src="assets/logo.webp"
+          alt="Ensō Athens Martial Arts"
+          class="nav-logo-img"
+        />
+      </a>
+      <button class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li class="has-dropdown">
+          <a href="#" class="active" data-i18n="nav.services">Services</a>
+          <ul class="dropdown">
+            <li><a href="jiu-jitsu.html" class="active" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a></li>
+            <li><a href="functional-training.html" data-i18n="nav.functional">Functional Training</a></li>
+            <li><a href="kids.html" data-i18n="nav.kids">Kids & Youth</a></li>
+            <li><a href="corporate.html" data-i18n="nav.corporate">Corporate Training</a></li>
+            <li><a href="schedule.html" data-i18n="nav.schedule">Weekly Schedule</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        <li><a href="tel:+306971767652" class="nav-phone">+30 697 176 7652</a></li>
+        <li class="lang-switcher">
+          <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
+          <button class="lang-btn" data-lang="el" aria-label="Ελληνικά">🇬🇷</button>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="page-hero page-hero--bjj">
+      <p class="page-hero-eyebrow" data-i18n="bjj.hero.eyebrow">Services · Most Popular</p>
+      <h1>
+        BRAZILIAN
+        <br />
+        JIU-JITSU
+      </h1>
+      <p data-i18n="bjj.hero.p">
+        Train, Learn, and Evolve at Ensō Athens Martial Arts. All levels welcome — from complete
+        beginners to advanced competitors.
+      </p>
+      <a href="#contact-form" class="btn-primary" data-i18n="bjj.hero.cta">Book Free Trial</a>
+    </section>
+
+    <!-- INTRO -->
+    <section class="content-section fade-up">
+      <div class="two-col">
+        <div>
+          <p class="section-eyebrow" data-i18n="bjj.art.eyebrow">The Art</p>
+          <h2 data-i18n-html="bjj.art.h2">
+            Leverage Over
+            <br />
+            Strength
+          </h2>
+          <p data-i18n="bjj.art.p1">
+            At Ensō Athens, we teach Brazilian Jiu-Jitsu (BJJ) and Grappling for all levels. Our
+            program emphasizes technique, leverage, and strategy over size and strength — helping
+            you develop real skill, confidence, and calm under pressure.
+          </p>
+          <p data-i18n="bjj.art.p2">
+            Train in a supportive, ego-free environment with experienced instructors who focus on
+            precision, safety, and personal growth.
+          </p>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">◉</div>
+            <div>
+              <h4 data-i18n="bjj.f1.h4">Private Classes</h4>
+              <p data-i18n="bjj.f1.p">One-on-one, tailored to your exact goals and level</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">◉</div>
+            <div>
+              <h4 data-i18n="bjj.f2.h4">Group Sessions</h4>
+              <p data-i18n="bjj.f2.p">Small classes with real feedback and structured drilling</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">◉</div>
+            <div>
+              <h4 data-i18n="bjj.f3.h4">Open Mat</h4>
+              <p data-i18n="bjj.f3.p">Free rolling, technical Q&A, all affiliations welcome</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">◉</div>
+            <div>
+              <h4 data-i18n="bjj.f4.h4">Gi & No-Gi</h4>
+              <p data-i18n="bjj.f4.p">Both formats available across all class types</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACILITY PHOTO -->
+    <section class="about-teaser fade-up">
+      <div class="about-teaser-img">
+        <img
+          src="assets/Jiu-Jitsu.png"
+          alt="Ensō Athens – Zebra mats and training area"
+          loading="lazy"
+        />
+      </div>
+      <div class="about-teaser-text">
+        <p class="section-eyebrow" data-i18n="bjj.fac.eyebrow">The Facility</p>
+        <h2 data-i18n-html="bjj.fac.h2">
+          Premium Mats
+          <br />
+          in Central Athens
+        </h2>
+        <p data-i18n="bjj.fac.p1">
+          Train on high-quality Zebra mats in a purpose-built space designed for Brazilian
+          Jiu-Jitsu and Grappling. Located on Thessalonikis 35 — easy access from public
+          transport with full changing facilities on site.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">4.9</span>
+            <span class="stat-label" data-i18n="about-t.stat1">Google Rating</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">237</span>
+            <span class="stat-label" data-i18n="about-t.stat2">Happy Members</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">IBJJF</span>
+            <span class="stat-label" data-i18n="about-t.stat3">Certified Coaches</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="content-section fade-up">
+      <p class="section-eyebrow" data-i18n="bjj.prog.eyebrow">Programs</p>
+      <h2 data-i18n="bjj.prog.h2">Choose Your Path</h2>
+      <div class="program-cards" style="margin-top: 40px">
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.prog.c1.h3">
+            <em>Private</em>
+            Classes
+          </h3>
+          <p data-i18n="bjj.prog.c1.p">
+            Personalised one-on-one training tailored to your goals — fundamentals, competition
+            strategy, or technical refinement.
+          </p>
+          <ul>
+            <li data-i18n="bjj.prog.c1.li1">Beginners wanting extra guidance</li>
+            <li data-i18n="bjj.prog.c1.li2">Intermediate students refining details</li>
+            <li data-i18n="bjj.prog.c1.li3">Competitors preparing for tournaments</li>
+          </ul>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.prog.c2.h3">
+            <em>Group</em>
+            Sessions
+          </h3>
+          <p data-i18n="bjj.prog.c2.p">
+            Experience the energy of training with others. Technical drilling, positional sparring,
+            and live rounds — everyone improves at their own pace.
+          </p>
+          <ul>
+            <li data-i18n="bjj.prog.c2.li1">Fundamentals (Beginner)</li>
+            <li data-i18n="bjj.prog.c2.li2">Intermediate / Advanced</li>
+            <li data-i18n="bjj.prog.c2.li3">No-Gi Grappling</li>
+          </ul>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.prog.c3.h3">
+            <em>Open</em>
+            Mat
+          </h3>
+          <p data-i18n="bjj.prog.c3.p">
+            A free space to practice, roll, and refine your game. Suitable for all affiliations and
+            experience levels.
+          </p>
+          <ul>
+            <li data-i18n="bjj.prog.c3.li1">Specific rounds</li>
+            <li data-i18n="bjj.prog.c3.li2">Technical Q&A with coaches</li>
+            <li data-i18n="bjj.prog.c3.li3">All belts & affiliations welcome</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRAPPLING -->
+    <section class="content-section fade-up">
+      <div class="two-col">
+        <div>
+          <p class="section-eyebrow" data-i18n="bjj.grap.eyebrow">Also Available</p>
+          <h2 data-i18n="bjj.grap.h2">Grappling Sessions</h2>
+          <p data-i18n="bjj.grap.p">
+            Develop takedowns, transitions, and control from wrestling and submission-grappling
+            systems. Our Grappling sessions integrate BJJ, wrestling, and judo principles — helping
+            you master ground control, pressure, and escapes.
+          </p>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="bjj.gf1.h4">Clinch & Takedown Entries</h4>
+              <p data-i18n="bjj.gf1.p">Clean entries from standing range</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="bjj.gf2.h4">Guard Retention & Escapes</h4>
+              <p data-i18n="bjj.gf2.p">Dominant position recovery under pressure</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="bjj.gf3.h4">Guard Passing & Top Control</h4>
+              <p data-i18n="bjj.gf3.p">Systematic passing with weight and pressure</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="bjj.gf4.h4">Submissions & Defense</h4>
+              <p data-i18n="bjj.gf4.p">Finishing and escaping from all positions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY HERE -->
+    <section class="content-section fade-up">
+      <p class="section-eyebrow" data-i18n="bjj.why.eyebrow">Why Train Here</p>
+      <h2 data-i18n="bjj.why.h2">The Ensō Difference</h2>
+      <div class="program-cards" style="margin-top: 40px">
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.why.c1.h3">
+            Expert
+            <em>Coaches</em>
+          </h3>
+          <p data-i18n="bjj.why.c1.p">
+            IBJJF-certified instructors with international competition and coaching experience.
+          </p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.why.c2.h3">
+            Structured
+            <em>Curriculum</em>
+          </h3>
+          <p data-i18n="bjj.why.c2.p">
+            Measured progress at every stage — no random techniques, just a clear learning path.
+          </p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.why.c3.h3">
+            Modern
+            <em>Facility</em>
+          </h3>
+          <p data-i18n="bjj.why.c3.p">
+            Clean, high-quality mats in central Athens. Easy transport access and full amenities.
+          </p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="bjj.why.c4.h3">
+            Ego-Free
+            <em>Culture</em>
+          </h3>
+          <p data-i18n="bjj.why.c4.p">
+            Beginner-friendly and safe. English-speaking coaches. Flexible memberships.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="about-teaser fade-up">
+      <div class="about-teaser-img">
+        <img
+          src="assets/DSCF2050-scaled.jpg"
+          alt="Ensō Athens – Championship belts and trophies"
+          loading="lazy"
+        />
+      </div>
+      <div class="about-teaser-text">
+        <p class="section-eyebrow" data-i18n="bjj.ach.eyebrow">Proven Results</p>
+        <h2 data-i18n-html="bjj.ach.h2">
+          Competition
+          <br />
+          Track Record
+        </h2>
+        <p data-i18n="bjj.ach.p">
+          Our athletes compete — and win — at NAGA and other international grappling competitions.
+          Whether you want to test yourself on the competition floor or just get better on the mat,
+          you'll train alongside people who take the sport seriously.
+        </p>
+      </div>
+    </section>
+
+    <!-- WHO IT'S FOR -->
+    <section class="content-section fade-up">
+      <p class="section-eyebrow" data-i18n="bjj.who.eyebrow">Who It's For</p>
+      <h2 data-i18n="bjj.who.h2">Everyone is Welcome</h2>
+      <div class="feature-list" style="max-width: 700px; margin-top: 32px">
+        <div class="feature-item">
+          <div class="feature-icon">◎</div>
+          <div>
+            <h4 data-i18n="bjj.who.f1.h4">Professionals</h4>
+            <p data-i18n="bjj.who.f1.p">
+              Seeking stress relief, mental clarity, and physical challenge
+            </p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">◎</div>
+          <div>
+            <h4 data-i18n="bjj.who.f2.h4">Athletes</h4>
+            <p data-i18n="bjj.who.f2.p">Cross-training for MMA, fitness, or competitive BJJ</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">◎</div>
+          <div>
+            <h4 data-i18n="bjj.who.f3.h4">Visitors to Athens</h4>
+            <p data-i18n="bjj.who.f3.p">A welcoming gym for drop-ins and travelers</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">◎</div>
+          <div>
+            <h4 data-i18n="bjj.who.f4.h4">Complete Beginners</h4>
+            <p data-i18n="bjj.who.f4.p">Starting from zero — we'll guide every step</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="contact-form">
+      <div class="cta-left">
+        <p class="section-eyebrow" data-i18n="cta.eyebrow">Get Started</p>
+        <h2 data-i18n-html="bjj.cta.h2">
+          Train Where
+          <br />
+          Mind Meets
+          <br />
+          Movement
+        </h2>
+        <p data-i18n="bjj.cta.p1">
+          Build confidence, focus, and resilience through the art of Brazilian Jiu-Jitsu and
+          Grappling.
+        </p>
+        <p style="margin-top: 8px"><strong data-i18n="cta.p">Train. Learn. Evolve.</strong></p>
+        <div class="cta-contact-details">
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;vertical-align:middle;flex-shrink:0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l1.8-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+306971767652">+30 697 176 7652</a>
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;vertical-align:middle;flex-shrink:0"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <a href="mailto:ensoathens@gmail.com">ensoathens@gmail.com</a>
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;vertical-align:middle;flex-shrink:0"><path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span data-i18n="cta.location">Thessalonikis 35, Athens 11851</span>
+          </p>
+        </div>
+      </div>
+      <div class="cta-form">
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input
+              type="text"
+              name="name"
+              data-i18n-placeholder="form.name"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              data-i18n-placeholder="form.email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="tel"
+              name="phone"
+              data-i18n-placeholder="form.phone"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              rows="4"
+              data-i18n-placeholder="bjj.form.message"
+              placeholder="Interested in Jiu-Jitsu? Ask us anything…"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-btn" data-i18n="form.btn">
+            Book My Free Trial
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">ENSŌ</span>
+          <p data-i18n="footer.tagline">Athens Martial Arts</p>
+          <p class="footer-addr" data-i18n="footer.addr">Thessalonikis 35, Athens 11851, Greece</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="jiu-jitsu.html" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="tel:+306971767652"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l1.8-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+30 697 176 7652</a>
+          <a href="mailto:ensoathens@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>ensoathens@gmail.com</a>
+          <p data-i18n="footer.available">Available 24/7</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/enso_ath/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100081978456729" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@EnsoATH" target="_blank" rel="noopener" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58a2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copy">© 2025 Ensō Athens Martial Arts. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
