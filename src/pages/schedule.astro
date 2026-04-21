@@ -1,0 +1,155 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Weekly Schedule – Ensō Athens Martial Arts">
+<section class="page-hero page-hero--sched">
+      <p class="page-hero-eyebrow" data-i18n="sched.hero.eyebrow">Services · Schedule</p>
+      <h1>
+        WEEKLY
+        <br />
+        SCHEDULE
+      </h1>
+      <p data-i18n="sched.hero.p">
+        Classes run Monday through Saturday. Book your spot online or contact us to secure
+        your place — class sizes are limited.
+      </p>
+      <a href="#contact-form" class="btn-primary" data-i18n="sched.hero.cta">Book a Class</a>
+    </section>
+
+    <!-- SCHEDULE IMAGE -->
+    <section class="content-section fade-up" style="text-align: center;">
+      <p class="section-eyebrow" style="margin-bottom: 20px;" data-i18n="sched.official.eyebrow">Official Schedule</p>
+      <img
+        src="/assets/schedule.jpg"
+        alt="Ensō Athens – Official Weekly Schedule"
+        loading="lazy"
+        style="max-width: 500px; width: 100%; display: inline-block;"
+      />
+    </section>
+
+    <!-- CLASS TYPES -->
+    <section class="content-section fade-up">
+      <p class="section-eyebrow" data-i18n="sched.types.eyebrow">Class Types</p>
+      <h2 data-i18n="sched.types.h2">What Each Class Covers</h2>
+      <p style="margin-top: 16px; margin-bottom: 40px; color: var(--off-white); max-width: 600px;" data-i18n="sched.types.p">
+        Structured, focused, and led by experienced coaches in a clean, modern training environment. Classes are conducted in English with Greek support available.
+      </p>
+      <div class="program-cards">
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t1.h3">BJJ <em>Mixed Levels</em></h3>
+          <p data-i18n="sched.t1.p">Suitable for beginners and experienced students training together. Technique, leverage, control, and composure under pressure.</p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t2.h3">BJJ <em>Fundamentals</em></h3>
+          <p data-i18n="sched.t2.p">Ideal for beginners building a strong technical foundation. Focused on core positions, movements, and safety.</p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t3.h3"><em>Wrestling</em></h3>
+          <p data-i18n="sched.t3.p">Technical and positional focus on takedowns, balance, body control, and athletic movement.</p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t4.h3">Wrestling <em>Fundamentals</em></h3>
+          <p data-i18n="sched.t4.p">Core movements, entries, and body control for those new to wrestling or looking to build a solid base.</p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t5.h3"><em>MMA</em></h3>
+          <p data-i18n="sched.t5.p">Combines grappling, movement, and conditioning fundamentals. Technical and beginner-friendly with safety as a priority.</p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t6.h3">Kids <em>Program</em></h3>
+          <p data-i18n="sched.t6.p">Builds confidence, discipline, coordination, and respect through age-appropriate training in a safe, fun, structured environment.</p>
+        </div>
+        <div class="program-card">
+          <h3 data-i18n-html="sched.t7.h3"><em>Open Mat</em></h3>
+          <p data-i18n="sched.t7.p">Free-form training open to all levels and affiliations. A respectful, ego-free environment to drill, roll, and refine your game.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRIVATE SESSIONS -->
+    <section class="content-section fade-up">
+      <div class="two-col">
+        <div>
+          <p class="section-eyebrow" data-i18n="sched.priv.eyebrow">Flexible Options</p>
+          <h2 data-i18n="sched.priv.h2">Can't Make the Regular Schedule?</h2>
+          <p data-i18n="sched.priv.p">
+            We offer private and semi-private sessions at times that work for you. Whether
+            you travel frequently, have an unusual work schedule, or simply prefer one-on-one
+            coaching, we'll find a time that fits.
+          </p>
+          <a href="/contact" class="btn-ghost" style="margin-top: 24px;" data-i18n="sched.priv.btn">Contact Us →</a>
+        </div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="sched.priv.f1.h4">Private BJJ Sessions</h4>
+              <p data-i18n="sched.priv.f1.p">One-on-one with an IBJJF-certified coach, any time that suits</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="sched.priv.f2.h4">Private S&C Coaching</h4>
+              <p data-i18n="sched.priv.f2.p">Fully personalised conditioning at your preferred time</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="sched.priv.f3.h4">Corporate Group Sessions</h4>
+              <p data-i18n="sched.priv.f3.p">Bespoke timing for company and team bookings</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">→</div>
+            <div>
+              <h4 data-i18n="sched.priv.f4.h4">Drop-In Welcome</h4>
+              <p data-i18n="sched.priv.f4.p">Visiting Athens? Open Mat on Saturdays welcomes all affiliations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="contact-form">
+      <div class="cta-left">
+        <p class="section-eyebrow" data-i18n="cta.eyebrow">Get Started</p>
+        <h2 data-i18n-html="sched.cta.h2">
+          Reserve Your
+          <br />
+          Spot Today.
+        </h2>
+        <p data-i18n="sched.cta.p1">
+          Class sizes are limited so every student gets proper coaching. Book ahead to
+          guarantee your place.
+        </p>
+        <p style="margin-top: 8px"><strong data-i18n="cta.p">Train. Learn. Evolve.</strong></p>
+        <div class="cta-contact-details">
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;vertical-align:middle;flex-shrink:0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l1.8-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+306971767652">+30 697 176 7652</a></p>
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;vertical-align:middle;flex-shrink:0"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> <a href="mailto:ensoathens@gmail.com">ensoathens@gmail.com</a></p>
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;vertical-align:middle;flex-shrink:0"><path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg> <a href="https://www.google.com/maps/place/Ens%C5%8D+Athens+Martial+Arts+%26+Jiu+Jitsu/@37.9749023,23.710368,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd9d8508fc35:0x43e80050a02b8c3d!8m2!3d37.9749023!4d23.7129429!16s%2Fg%2F11vry4tz08?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener"><span data-i18n="cta.location">Thessalonikis 35, Athens 11851</span></a></p>
+        </div>
+      </div>
+      <div class="cta-form">
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input type="text" name="name" data-i18n-placeholder="form.name" placeholder="Full Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" data-i18n-placeholder="form.email" placeholder="Email Address" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" data-i18n-placeholder="form.phone" placeholder="Phone Number" />
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="4" data-i18n-placeholder="sched.form.message" placeholder="Which class or session are you interested in?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-btn" data-i18n="form.btn">Book My Free Trial</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+</BaseLayout>

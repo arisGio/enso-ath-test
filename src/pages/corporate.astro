@@ -1,62 +1,9 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Corporate Training Athens – Ensō Athens Martial Arts</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
 
-  <body>
-    <nav id="nav">
-      <a href="index.html" class="nav-logo">
-        <img src="assets/logo.webp" alt="Ensō Athens Martial Arts" class="nav-logo-img" />
-      </a>
-      <button class="nav-toggle" id="navToggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-        <li><a href="about.html" data-i18n="nav.about">About</a></li>
-        <li class="has-dropdown">
-          <a href="#" class="active" data-i18n="nav.services">Services</a>
-          <ul class="dropdown">
-            <li><a href="jiu-jitsu.html" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a></li>
-            <li><a href="functional-training.html" data-i18n="nav.functional">Functional Training</a></li>
-            <li><a href="kids.html" data-i18n="nav.kids">Kids & Youth</a></li>
-            <li><a href="corporate.html" class="active" data-i18n="nav.corporate">Corporate Training</a></li>
-            <li><a href="schedule.html" data-i18n="nav.schedule">Weekly Schedule</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
-        <li><a href="tel:+306971767652" class="nav-phone">+30 697 176 7652</a></li>
-        <li class="lang-switcher">
-          <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
-          <button class="lang-btn" data-lang="el" aria-label="Ελληνικά">🇬🇷</button>
-        </li>
-      </ul>
-      <div class="nav-social">
-        <a href="https://www.instagram.com/enso_ath/" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=100081978456729" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
-        </a>
-        <a href="https://www.youtube.com/@EnsoATH" target="_blank" rel="noopener" aria-label="YouTube">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58a2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" /></svg>
-        </a>
-      </div>
-    </nav>
-
-    <section class="page-hero page-hero--corp">
+<BaseLayout title="Corporate Training – Ensō Athens Martial Arts">
+<section class="page-hero page-hero--corp">
       <p class="page-hero-eyebrow" data-i18n="corp.hero.eyebrow">Services · Corporate</p>
       <h1>
         CORPORATE
@@ -129,7 +76,7 @@
     <section class="about-teaser fade-up">
       <div class="about-teaser-img">
         <img
-          src="assets/enso-kids.png"
+          src="/assets/enso-kids.png"
           alt="Ensō Athens – Group training session"
           loading="lazy"
         />
@@ -304,47 +251,4 @@
         </form>
       </div>
     </section>
-
-    <footer class="footer">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <img src="assets/logo.webp" alt="Ensō Athens Martial Arts" class="footer-logo" />
-          <p data-i18n="footer.tagline">Athens Martial Arts</p>
-          <a href="https://www.google.com/maps/place/Ens%C5%8D+Athens+Martial+Arts+%26+Jiu+Jitsu/@37.9749023,23.710368,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd9d8508fc35:0x43e80050a02b8c3d!8m2!3d37.9749023!4d23.7129429!16s%2Fg%2F11vry4tz08?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="footer-addr"><span data-i18n="footer.addr">Thessalonikis 35, Athens 11851, Greece</span></a>
-        </div>
-        <nav class="footer-nav">
-          <a href="index.html" data-i18n="nav.home">Home</a>
-          <a href="about.html" data-i18n="nav.about">About</a>
-          <a href="jiu-jitsu.html" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a>
-          <a href="contact.html" data-i18n="nav.contact">Contact</a>
-        </nav>
-        <div class="footer-contact">
-          <a href="tel:+306971767652"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.29 6.29l1.8-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+30 697 176 7652</a>
-          <a href="mailto:ensoathens@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>ensoathens@gmail.com</a>
-          <p data-i18n="footer.available">Available 24/7</p>
-          <div class="footer-social">
-            <a href="https://www.instagram.com/enso_ath/" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100081978456729" target="_blank" rel="noopener" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            </a>
-            <a href="https://www.youtube.com/@EnsoATH" target="_blank" rel="noopener" aria-label="YouTube">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58a2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p data-i18n="footer.copy">© 2025 Ensō Athens Martial Arts. All rights reserved.</p>
-        <div class="footer-legal">
-          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
-          <a href="#" data-i18n="footer.terms">Terms of Use</a>
-        </div>
-      </div>
-    </footer>
-
-    <script src="translations.js"></script>
-    <script src="main.js"></script>
-  </body>
-</html>
+</BaseLayout>

@@ -270,12 +270,15 @@ const translations = {
 
     // Functional Training page
     "ft.hero.eyebrow": "Services · Premium",
-    "ft.hero.p": "Personalised functional training for athletes and professionals. Maximum three per session — real coaching, real results.",
+    "ft.hero.p":
+      "Personalised functional training for athletes and professionals. Maximum three per session — real coaching, real results.",
     "ft.hero.cta": "Book a Session",
     "ft.intro.eyebrow": "The Training",
     "ft.intro.h2": "Function First.<br/><em>Performance</em> Always.",
-    "ft.intro.p1": "Our Strength & Conditioning programme is built around your specific goals — whether that's athletic performance, injury prevention, or general fitness. Sessions are capped at three athletes so every movement is coached, every set is intentional.",
-    "ft.intro.p2": "Expect evidence-based programming that adapts as you progress, delivered by coaches who understand both the gym floor and the demands of combat sports.",
+    "ft.intro.p1":
+      "Our Strength & Conditioning programme is built around your specific goals — whether that's athletic performance, injury prevention, or general fitness. Sessions are capped at three athletes so every movement is coached, every set is intentional.",
+    "ft.intro.p2":
+      "Expect evidence-based programming that adapts as you progress, delivered by coaches who understand both the gym floor and the demands of combat sports.",
     "ft.f1.h4": "Max 3 Per Session",
     "ft.f1.p": "Individualised attention you simply can't get in a large class",
     "ft.f2.h4": "Personalised Programming",
@@ -286,29 +289,34 @@ const translations = {
     "ft.f4.p": "Measurable benchmarks at every phase of your programme",
     "ft.fac.eyebrow": "The Facility",
     "ft.fac.h2": "Equipped to<br/>Push You Further",
-    "ft.fac.p": "Our conditioning area is stocked with functional training equipment — barbells, kettlebells, resistance bands, and more. Designed alongside our BJJ mats to complement your martial arts training or stand alone as a premium small-group gym experience.",
+    "ft.fac.p":
+      "Our conditioning area is stocked with functional training equipment — barbells, kettlebells, resistance bands, and more. Designed alongside our BJJ mats to complement your martial arts training or stand alone as a premium small-group gym experience.",
     "ft.stat1": "Max Per Session",
     "ft.stat2": "Personalised",
     "ft.prog.eyebrow": "Programs",
     "ft.prog.h2": "Find Your Format",
     "ft.prog.c1.h3": "<em>Semi-Private</em> Sessions",
-    "ft.prog.c1.p": "Train alongside one or two others at a similar level. Shared energy, individual coaching, and a cost-effective premium experience.",
+    "ft.prog.c1.p":
+      "Train alongside one or two others at a similar level. Shared energy, individual coaching, and a cost-effective premium experience.",
     "ft.prog.c1.li1": "Up to 3 athletes per session",
     "ft.prog.c1.li2": "Structured warm-up, work, and cool-down",
     "ft.prog.c1.li3": "Weekly programming adjustments",
     "ft.prog.c2.h3": "<em>Private</em> Coaching",
-    "ft.prog.c2.p": "One-on-one sessions for athletes who need laser-focused attention — injury rehabilitation, competition prep, or accelerated progress.",
+    "ft.prog.c2.p":
+      "One-on-one sessions for athletes who need laser-focused attention — injury rehabilitation, competition prep, or accelerated progress.",
     "ft.prog.c2.li1": "Full individual focus",
     "ft.prog.c2.li2": "Movement screening & goal mapping",
     "ft.prog.c2.li3": "Monthly progress reviews",
     "ft.prog.c3.h3": "Martial Arts <em>Conditioning</em>",
-    "ft.prog.c3.p": "Purpose-built for BJJ, MMA, and grappling athletes. Develops the specific strength, endurance, and mobility your sport demands.",
+    "ft.prog.c3.p":
+      "Purpose-built for BJJ, MMA, and grappling athletes. Develops the specific strength, endurance, and mobility your sport demands.",
     "ft.prog.c3.li1": "Sport-specific strength blocks",
     "ft.prog.c3.li2": "Energy system development",
     "ft.prog.c3.li3": "Injury prevention & mobility work",
     "ft.pillars.eyebrow": "Our Method",
     "ft.pillars.h2": "Built on Four Pillars",
-    "ft.pillars.p": "Every programme we write is grounded in the same four principles. Whether your goal is to compete at the highest level or simply move better every day, the framework stays the same — only the variables change.",
+    "ft.pillars.p":
+      "Every programme we write is grounded in the same four principles. Whether your goal is to compete at the highest level or simply move better every day, the framework stays the same — only the variables change.",
     "ft.pil1.h4": "Strength Foundation",
     "ft.pil1.p": "Compound movements that build transferable, real-world power",
     "ft.pil2.h4": "Conditioning Capacity",
@@ -333,12 +341,15 @@ const translations = {
 
     // Kids & Youth page
     "kids.hero.eyebrow": "Services · Kids & Youth",
-    "kids.hero.p": "Structured martial arts for children and teenagers. Building discipline, confidence, and resilience through guided play and practice.",
+    "kids.hero.p":
+      "Structured martial arts for children and teenagers. Building discipline, confidence, and resilience through guided play and practice.",
     "kids.hero.cta": "Book a Free Class",
     "kids.intro.eyebrow": "The Programme",
     "kids.intro.h2": "More Than<br/><em>Martial Arts</em>",
-    "kids.intro.p1": "Our Kids & Youth classes teach children to move confidently, think clearly under pressure, and treat others with respect. Using Brazilian Jiu-Jitsu as the foundation, we develop the whole child — body, mind, and character.",
-    "kids.intro.p2": "Classes are age-appropriate, safe, and taught by patient coaches who know how to make learning fun while building real skill.",
+    "kids.intro.p1":
+      "Our Kids & Youth classes teach children to move confidently, think clearly under pressure, and treat others with respect. Using Brazilian Jiu-Jitsu as the foundation, we develop the whole child — body, mind, and character.",
+    "kids.intro.p2":
+      "Classes are age-appropriate, safe, and taught by patient coaches who know how to make learning fun while building real skill.",
     "kids.f1.h4": "Age-Appropriate Classes",
     "kids.f1.p": "Separate groups for younger kids and teens",
     "kids.f2.h4": "Safe Environment",
@@ -349,27 +360,32 @@ const translations = {
     "kids.f4.p": "Proper BJJ foundations delivered in a fun, game-based format",
     "kids.fac.eyebrow": "The Space",
     "kids.fac.h2": "Safe Mats.<br/>Supportive Coaches.",
-    "kids.fac.p": "Our Zebra mats are purpose-built for grappling — soft enough for young athletes, firm enough for real technique. The academy is cleaned before every session and our coaches are background-checked and trained in child-safe coaching practices.",
+    "kids.fac.p":
+      "Our Zebra mats are purpose-built for grappling — soft enough for young athletes, firm enough for real technique. The academy is cleaned before every session and our coaches are background-checked and trained in child-safe coaching practices.",
     "kids.prog.eyebrow": "Age Groups",
     "kids.prog.h2": "Classes for Every Stage",
     "kids.prog.c1.h3": "Little <em>Warriors</em>",
-    "kids.prog.c1.p": "Ages 5–8. Introductory classes centred on movement games, body awareness, and learning to follow instructions in a group setting.",
+    "kids.prog.c1.p":
+      "Ages 5–8. Introductory classes centred on movement games, body awareness, and learning to follow instructions in a group setting.",
     "kids.prog.c1.li1": "Basic movement & coordination",
     "kids.prog.c1.li2": "Listening and teamwork",
     "kids.prog.c1.li3": "Confidence through play",
     "kids.prog.c2.h3": "Junior <em>Grapplers</em>",
-    "kids.prog.c2.p": "Ages 9–13. Foundational BJJ technique with controlled live drilling. Children build real skills while developing focus and respect.",
+    "kids.prog.c2.p":
+      "Ages 9–13. Foundational BJJ technique with controlled live drilling. Children build real skills while developing focus and respect.",
     "kids.prog.c2.li1": "BJJ fundamentals — positions & escapes",
     "kids.prog.c2.li2": "Structured drilling & positional games",
     "kids.prog.c2.li3": "Belt progression system",
     "kids.prog.c3.h3": "Teen <em>Academy</em>",
-    "kids.prog.c3.p": "Ages 14–17. A more structured programme bridging youth and adult training. Teenagers develop discipline, resilience, and competitive awareness.",
+    "kids.prog.c3.p":
+      "Ages 14–17. A more structured programme bridging youth and adult training. Teenagers develop discipline, resilience, and competitive awareness.",
     "kids.prog.c3.li1": "Intermediate to advanced BJJ technique",
     "kids.prog.c3.li2": "Controlled sparring & competition prep",
     "kids.prog.c3.li3": "Mentorship from experienced coaches",
     "kids.ben.eyebrow": "Benefits",
     "kids.ben.h2": "What They'll Take Off the Mats",
-    "kids.ben.p": "The skills developed in our Kids & Youth classes extend far beyond the gym. Parents consistently tell us about improvements in school focus, emotional regulation, and social confidence after just a few months of training.",
+    "kids.ben.p":
+      "The skills developed in our Kids & Youth classes extend far beyond the gym. Parents consistently tell us about improvements in school focus, emotional regulation, and social confidence after just a few months of training.",
     "kids.b1.h4": "Focus & Attention",
     "kids.b1.p": "Learning to listen, follow instructions, and stay present",
     "kids.b2.h4": "Anti-Bullying Confidence",
@@ -379,17 +395,21 @@ const translations = {
     "kids.b4.h4": "Respect & Discipline",
     "kids.b4.p": "Habits and values that carry into school, family, and life",
     "kids.cta.h2": "Give Them<br/>a Foundation<br/>for Life.",
-    "kids.cta.p1": "A free trial class with no pressure and no equipment needed. Just bring your child and let us show you what training at Ensō Athens feels like.",
+    "kids.cta.p1":
+      "A free trial class with no pressure and no equipment needed. Just bring your child and let us show you what training at Ensō Athens feels like.",
     "kids.form.message": "Tell us your child's age and any questions…",
 
     // Corporate Training page
     "corp.hero.eyebrow": "Services · Corporate",
-    "corp.hero.p": "Team sessions designed for performance and focus. Bring your organisation to the mats — or we bring the mats to you.",
+    "corp.hero.p":
+      "Team sessions designed for performance and focus. Bring your organisation to the mats — or we bring the mats to you.",
     "corp.hero.cta": "Enquire Now",
     "corp.intro.eyebrow": "The Offer",
     "corp.intro.h2": "High Performance<br/>Starts with <em>Mindset</em>",
-    "corp.intro.p1": "The same principles that make elite athletes — focus, composure under pressure, strategic thinking, and recovery — are exactly what high-performing teams need. Our corporate training brings those principles off the competition floor and into your workplace culture.",
-    "corp.intro.p2": "Whether you're looking for a unique team-building experience, regular wellness sessions, or leadership development through martial arts, we design a programme around your team's goals and schedule.",
+    "corp.intro.p1":
+      "The same principles that make elite athletes — focus, composure under pressure, strategic thinking, and recovery — are exactly what high-performing teams need. Our corporate training brings those principles off the competition floor and into your workplace culture.",
+    "corp.intro.p2":
+      "Whether you're looking for a unique team-building experience, regular wellness sessions, or leadership development through martial arts, we design a programme around your team's goals and schedule.",
     "corp.f1.h4": "Tailored to Your Team",
     "corp.f1.p": "No two companies are the same — neither are our programmes",
     "corp.f2.h4": "At Our Gym or Yours",
@@ -400,43 +420,52 @@ const translations = {
     "corp.f4.p": "Morning, lunchtime, or after-hours — we work around you",
     "corp.fac.eyebrow": "The Venue",
     "corp.fac.h2": "A Space Built<br/>for Focus",
-    "corp.fac.p": "Located at Thessalonikis 35 in central Athens, our academy offers a professional environment away from the office — the perfect reset for any team. Private training zones, changing facilities, and a welcoming atmosphere make Ensō Athens ideal for corporate group bookings.",
+    "corp.fac.p":
+      "Located at Thessalonikis 35 in central Athens, our academy offers a professional environment away from the office — the perfect reset for any team. Private training zones, changing facilities, and a welcoming atmosphere make Ensō Athens ideal for corporate group bookings.",
     "corp.prog.eyebrow": "Programme Options",
     "corp.prog.h2": "How We Work Together",
     "corp.prog.c1.h3": "Team <em>Experience</em>",
-    "corp.prog.c1.p": "A one-off session that introduces your team to BJJ principles — cooperation, problem-solving under pressure, and trust. No experience required.",
+    "corp.prog.c1.p":
+      "A one-off session that introduces your team to BJJ principles — cooperation, problem-solving under pressure, and trust. No experience required.",
     "corp.prog.c1.li1": "Half-day or full-day format",
     "corp.prog.c1.li2": "Debrief connecting mat lessons to the workplace",
     "corp.prog.c1.li3": "Up to 20 participants",
     "corp.prog.c2.h3": "Regular <em>Wellness</em>",
-    "corp.prog.c2.p": "Weekly or bi-weekly sessions for teams that want ongoing fitness, stress reduction, and the mental benefits of consistent training.",
+    "corp.prog.c2.p":
+      "Weekly or bi-weekly sessions for teams that want ongoing fitness, stress reduction, and the mental benefits of consistent training.",
     "corp.prog.c2.li1": "1-hour structured sessions",
     "corp.prog.c2.li2": "Combination of movement & conditioning",
     "corp.prog.c2.li3": "Scalable for mixed fitness levels",
     "corp.prog.c3.h3": "Leadership <em>Intensive</em>",
-    "corp.prog.c3.p": "A structured programme using BJJ methodology to develop leadership traits — composure, adaptability, and performance under pressure.",
+    "corp.prog.c3.p":
+      "A structured programme using BJJ methodology to develop leadership traits — composure, adaptability, and performance under pressure.",
     "corp.prog.c3.li1": "Multi-session curriculum",
     "corp.prog.c3.li2": "Tailored for leadership groups",
     "corp.prog.c3.li3": "Post-programme coaching available",
     "corp.why.eyebrow": "Why Martial Arts",
     "corp.why.h2": "The Business Case for BJJ",
-    "corp.why.p": "Companies that invest in their team's physical and mental wellbeing see measurable returns in focus, cohesion, and resilience. BJJ is uniquely effective because it demands real-time problem-solving, calm under physical and mental pressure, and collaborative learning — skills that translate directly to high-performing teams.",
+    "corp.why.p":
+      "Companies that invest in their team's physical and mental wellbeing see measurable returns in focus, cohesion, and resilience. BJJ is uniquely effective because it demands real-time problem-solving, calm under physical and mental pressure, and collaborative learning — skills that translate directly to high-performing teams.",
     "corp.w1.h4": "Stress Reduction",
-    "corp.w1.p": "Physical training is one of the most effective tools for managing workplace pressure",
+    "corp.w1.p":
+      "Physical training is one of the most effective tools for managing workplace pressure",
     "corp.w2.h4": "Team Cohesion",
     "corp.w2.p": "Shared physical challenge builds trust faster than most team activities",
     "corp.w3.h4": "Problem Solving",
     "corp.w3.p": "BJJ is live chess — it trains adaptive thinking under real constraints",
     "corp.w4.h4": "Sustained Energy",
-    "corp.w4.p": "Regular physical training improves cognitive performance throughout the working day",
+    "corp.w4.p":
+      "Regular physical training improves cognitive performance throughout the working day",
     "corp.cta.h2": "Bring Your<br/>Team to the<br/>Mats.",
-    "corp.cta.p1": "Tell us about your team and goals — we'll put together a proposal that fits your organisation and budget.",
+    "corp.cta.p1":
+      "Tell us about your team and goals — we'll put together a proposal that fits your organisation and budget.",
     "corp.form.message": "Tell us about your team size and what you're looking for…",
     "corp.form.btn": "Send Enquiry",
 
     // Weekly Schedule page
     "sched.hero.eyebrow": "Services · Schedule",
-    "sched.hero.p": "Classes run Monday through Saturday. Book your spot online or contact us to secure your place — class sizes are limited.",
+    "sched.hero.p":
+      "Classes run Monday through Saturday. Book your spot online or contact us to secure your place — class sizes are limited.",
     "sched.hero.cta": "Book a Class",
     "sched.table.eyebrow": "Timetable",
     "sched.table.h2": "This Week's Classes",
@@ -471,10 +500,12 @@ const translations = {
     "sched.legend.kids": "Kids & Youth",
     "sched.legend.open": "Open Mat",
     "sched.note.title": "Please note:",
-    "sched.note.body": " Class times may vary during public holidays and special events. We recommend confirming your spot by contacting us directly or booking online. S&C sessions require advance booking as they are capped at 3 athletes per session.",
+    "sched.note.body":
+      " Class times may vary during public holidays and special events. We recommend confirming your spot by contacting us directly or booking online. S&C sessions require advance booking as they are capped at 3 athletes per session.",
     "sched.priv.eyebrow": "Flexible Options",
     "sched.priv.h2": "Can't Make the Regular Schedule?",
-    "sched.priv.p": "We offer private and semi-private sessions at times that work for you. Whether you travel frequently, have an unusual work schedule, or simply prefer one-on-one coaching, we'll find a time that fits.",
+    "sched.priv.p":
+      "We offer private and semi-private sessions at times that work for you. Whether you travel frequently, have an unusual work schedule, or simply prefer one-on-one coaching, we'll find a time that fits.",
     "sched.priv.btn": "Contact Us →",
     "sched.priv.f1.h4": "Private BJJ Sessions",
     "sched.priv.f1.p": "One-on-one with an IBJJF-certified coach, any time that suits",
@@ -485,31 +516,41 @@ const translations = {
     "sched.priv.f4.h4": "Drop-In Welcome",
     "sched.priv.f4.p": "Visiting Athens? Open Mat on Saturdays welcomes all affiliations",
     "sched.cta.h2": "Reserve Your<br/>Spot Today.",
-    "sched.cta.p1": "Class sizes are limited so every student gets proper coaching. Book ahead to guarantee your place.",
+    "sched.cta.p1":
+      "Class sizes are limited so every student gets proper coaching. Book ahead to guarantee your place.",
     "sched.form.message": "Which class or session are you interested in?",
     "sched.official.eyebrow": "Official Schedule",
     "sched.types.eyebrow": "Class Types",
     "sched.types.h2": "What Each Class Covers",
-    "sched.types.p": "Structured, focused, and led by experienced coaches in a clean, modern training environment. Classes are conducted in English with Greek support available.",
+    "sched.types.p":
+      "Structured, focused, and led by experienced coaches in a clean, modern training environment. Classes are conducted in English with Greek support available.",
     "sched.t1.h3": "BJJ <em>Mixed Levels</em>",
-    "sched.t1.p": "Suitable for beginners and experienced students training together. Technique, leverage, control, and composure under pressure.",
+    "sched.t1.p":
+      "Suitable for beginners and experienced students training together. Technique, leverage, control, and composure under pressure.",
     "sched.t2.h3": "BJJ <em>Fundamentals</em>",
-    "sched.t2.p": "Ideal for beginners building a strong technical foundation. Focused on core positions, movements, and safety.",
+    "sched.t2.p":
+      "Ideal for beginners building a strong technical foundation. Focused on core positions, movements, and safety.",
     "sched.t3.h3": "<em>Wrestling</em>",
-    "sched.t3.p": "Technical and positional focus on takedowns, balance, body control, and athletic movement.",
+    "sched.t3.p":
+      "Technical and positional focus on takedowns, balance, body control, and athletic movement.",
     "sched.t4.h3": "Wrestling <em>Fundamentals</em>",
-    "sched.t4.p": "Core movements, entries, and body control for those new to wrestling or looking to build a solid base.",
+    "sched.t4.p":
+      "Core movements, entries, and body control for those new to wrestling or looking to build a solid base.",
     "sched.t5.h3": "<em>MMA</em>",
-    "sched.t5.p": "Combines grappling, movement, and conditioning fundamentals. Technical and beginner-friendly with safety as a priority.",
+    "sched.t5.p":
+      "Combines grappling, movement, and conditioning fundamentals. Technical and beginner-friendly with safety as a priority.",
     "sched.t6.h3": "Kids <em>Program</em>",
-    "sched.t6.p": "Builds confidence, discipline, coordination, and respect through age-appropriate training in a safe, fun, structured environment.",
+    "sched.t6.p":
+      "Builds confidence, discipline, coordination, and respect through age-appropriate training in a safe, fun, structured environment.",
     "sched.t7.h3": "<em>Open Mat</em>",
-    "sched.t7.p": "Free-form training open to all levels and affiliations. A respectful, ego-free environment to drill, roll, and refine your game.",
+    "sched.t7.p":
+      "Free-form training open to all levels and affiliations. A respectful, ego-free environment to drill, roll, and refine your game.",
 
     // BJJ achievements section
     "bjj.ach.eyebrow": "Proven Results",
     "bjj.ach.h2": "Competition<br/>Track Record",
-    "bjj.ach.p": "Our athletes compete — and win — at NAGA and other international grappling competitions. Whether you want to test yourself on the competition floor or just get better on the mat, you'll train alongside people who take the sport seriously.",
+    "bjj.ach.p":
+      "Our athletes compete — and win — at NAGA and other international grappling competitions. Whether you want to test yourself on the competition floor or just get better on the mat, you'll train alongside people who take the sport seriously.",
   },
 
   el: {
@@ -781,12 +822,15 @@ const translations = {
 
     // Functional Training page
     "ft.hero.eyebrow": "Υπηρεσίες · Premium",
-    "ft.hero.p": "Εξατομικευμένη λειτουργική προπόνηση για αθλητές και επαγγελματίες. Μέγιστο τρία άτομα ανά session — πραγματική προπόνηση, πραγματικά αποτελέσματα.",
+    "ft.hero.p":
+      "Εξατομικευμένη λειτουργική προπόνηση για αθλητές και επαγγελματίες. Μέγιστο τρία άτομα ανά session — πραγματική προπόνηση, πραγματικά αποτελέσματα.",
     "ft.hero.cta": "Κλείστε Session",
     "ft.intro.eyebrow": "Η Προπόνηση",
     "ft.intro.h2": "Λειτουργικότητα Πρώτα.<br/><em>Απόδοση</em> Πάντα.",
-    "ft.intro.p1": "Το πρόγραμμά μας Δύναμης & Κατάστασης είναι φτιαγμένο γύρω από τους συγκεκριμένους στόχους σας — είτε αφορά αθλητική απόδοση, πρόληψη τραυματισμών ή γενική φυσική κατάσταση. Τα sessions περιορίζονται σε τρεις αθλητές ώστε κάθε κίνηση να είναι καθοδηγούμενη.",
-    "ft.intro.p2": "Αποδεδειγμένος σχεδιασμός προπόνησης που προσαρμόζεται καθώς προοδεύετε, από προπονητές που κατανοούν τόσο τον χώρο του γυμναστηρίου όσο και τις απαιτήσεις των αγωνιστικών σπορ.",
+    "ft.intro.p1":
+      "Το πρόγραμμά μας Δύναμης & Κατάστασης είναι φτιαγμένο γύρω από τους συγκεκριμένους στόχους σας — είτε αφορά αθλητική απόδοση, πρόληψη τραυματισμών ή γενική φυσική κατάσταση. Τα sessions περιορίζονται σε τρεις αθλητές ώστε κάθε κίνηση να είναι καθοδηγούμενη.",
+    "ft.intro.p2":
+      "Αποδεδειγμένος σχεδιασμός προπόνησης που προσαρμόζεται καθώς προοδεύετε, από προπονητές που κατανοούν τόσο τον χώρο του γυμναστηρίου όσο και τις απαιτήσεις των αγωνιστικών σπορ.",
     "ft.f1.h4": "Μέγιστο 3 ανά Session",
     "ft.f1.p": "Εξατομικευμένη προσοχή που δεν μπορείτε να βρείτε σε μεγάλη τάξη",
     "ft.f2.h4": "Εξατομικευμένος Σχεδιασμός",
@@ -797,29 +841,34 @@ const translations = {
     "ft.f4.p": "Μετρήσιμα σημεία αναφοράς σε κάθε φάση του προγράμματός σας",
     "ft.fac.eyebrow": "Οι Εγκαταστάσεις",
     "ft.fac.h2": "Εξοπλισμένο για<br/>να σας Ωθήσει Παραπέρα",
-    "ft.fac.p": "Ο χώρος κατάστασής μας διαθέτει εξοπλισμό λειτουργικής προπόνησης — μπάρες, kettlebells, λάστιχα αντίστασης και άλλα. Σχεδιασμένος παράλληλα με τα tatami BJJ για να συμπληρώνει την προπόνηση πολεμικών τεχνών ή να λειτουργεί αυτόνομα.",
+    "ft.fac.p":
+      "Ο χώρος κατάστασής μας διαθέτει εξοπλισμό λειτουργικής προπόνησης — μπάρες, kettlebells, λάστιχα αντίστασης και άλλα. Σχεδιασμένος παράλληλα με τα tatami BJJ για να συμπληρώνει την προπόνηση πολεμικών τεχνών ή να λειτουργεί αυτόνομα.",
     "ft.stat1": "Μέγ. ανά Session",
     "ft.stat2": "Εξατομικευμένο",
     "ft.prog.eyebrow": "Προγράμματα",
     "ft.prog.h2": "Βρείτε το Κατάλληλο Σχήμα",
     "ft.prog.c1.h3": "<em>Ημι-Ιδιωτικές</em> Συνεδρίες",
-    "ft.prog.c1.p": "Προπονηθείτε μαζί με ένα ή δύο άτομα παρόμοιου επιπέδου. Κοινή ενέργεια, ατομική καθοδήγηση και οικονομική premium εμπειρία.",
+    "ft.prog.c1.p":
+      "Προπονηθείτε μαζί με ένα ή δύο άτομα παρόμοιου επιπέδου. Κοινή ενέργεια, ατομική καθοδήγηση και οικονομική premium εμπειρία.",
     "ft.prog.c1.li1": "Έως 3 αθλητές ανά session",
     "ft.prog.c1.li2": "Δομημένη προθέρμανση, εργασία και αποθεραπεία",
     "ft.prog.c1.li3": "Εβδομαδιαίες προσαρμογές προγράμματος",
     "ft.prog.c2.h3": "<em>Ιδιωτική</em> Καθοδήγηση",
-    "ft.prog.c2.p": "Ατομικές συνεδρίες για αθλητές που χρειάζονται εστιασμένη προσοχή — αποκατάσταση τραυματισμού, προετοιμασία αγώνων ή επιταχυνόμενη πρόοδος.",
+    "ft.prog.c2.p":
+      "Ατομικές συνεδρίες για αθλητές που χρειάζονται εστιασμένη προσοχή — αποκατάσταση τραυματισμού, προετοιμασία αγώνων ή επιταχυνόμενη πρόοδος.",
     "ft.prog.c2.li1": "Πλήρης ατομική εστίαση",
     "ft.prog.c2.li2": "Αξιολόγηση κίνησης & χαρτογράφηση στόχων",
     "ft.prog.c2.li3": "Μηνιαίες αξιολογήσεις προόδου",
     "ft.prog.c3.h3": "Κατάσταση για <em>Πολεμικές Τέχνες</em>",
-    "ft.prog.c3.p": "Ειδικά σχεδιασμένο για αθλητές BJJ, MMA και grappling. Αναπτύσσει τη συγκεκριμένη δύναμη, αντοχή και κινητικότητα που απαιτεί το άθλημά σας.",
+    "ft.prog.c3.p":
+      "Ειδικά σχεδιασμένο για αθλητές BJJ, MMA και grappling. Αναπτύσσει τη συγκεκριμένη δύναμη, αντοχή και κινητικότητα που απαιτεί το άθλημά σας.",
     "ft.prog.c3.li1": "Μπλόκ δύναμης ειδικά για το άθλημα",
     "ft.prog.c3.li2": "Ανάπτυξη ενεργειακών συστημάτων",
     "ft.prog.c3.li3": "Πρόληψη τραυματισμών & εργασία κινητικότητας",
     "ft.pillars.eyebrow": "Η Μέθοδός μας",
     "ft.pillars.h2": "Βασισμένο σε Τέσσερις Πυλώνες",
-    "ft.pillars.p": "Κάθε πρόγραμμα που γράφουμε βασίζεται στις ίδιες τέσσερις αρχές. Είτε ο στόχος σας είναι να ανταγωνιστείτε στο υψηλότερο επίπεδο είτε απλά να κινείστε καλύτερα, το πλαίσιο παραμένει το ίδιο.",
+    "ft.pillars.p":
+      "Κάθε πρόγραμμα που γράφουμε βασίζεται στις ίδιες τέσσερις αρχές. Είτε ο στόχος σας είναι να ανταγωνιστείτε στο υψηλότερο επίπεδο είτε απλά να κινείστε καλύτερα, το πλαίσιο παραμένει το ίδιο.",
     "ft.pil1.h4": "Θεμέλιο Δύναμης",
     "ft.pil1.p": "Σύνθετες κινήσεις που χτίζουν μεταβιβάσιμη, πραγματική δύναμη",
     "ft.pil2.h4": "Ικανότητα Κατάστασης",
@@ -844,12 +893,15 @@ const translations = {
 
     // Kids & Youth page
     "kids.hero.eyebrow": "Υπηρεσίες · Παιδιά & Νέοι",
-    "kids.hero.p": "Δομημένες πολεμικές τέχνες για παιδιά και εφήβους. Χτίζοντας πειθαρχία, αυτοπεποίθηση και ανθεκτικότητα μέσα από καθοδηγούμενο παιχνίδι και άσκηση.",
+    "kids.hero.p":
+      "Δομημένες πολεμικές τέχνες για παιδιά και εφήβους. Χτίζοντας πειθαρχία, αυτοπεποίθηση και ανθεκτικότητα μέσα από καθοδηγούμενο παιχνίδι και άσκηση.",
     "kids.hero.cta": "Κλείστε Δωρεάν Μάθημα",
     "kids.intro.eyebrow": "Το Πρόγραμμα",
     "kids.intro.h2": "Κάτι Παραπάνω<br/>από <em>Πολεμικές Τέχνες</em>",
-    "kids.intro.p1": "Τα μαθήματα Παιδιών & Νέων μαθαίνουν στα παιδιά να κινούνται με αυτοπεποίθηση, να σκέφτονται καθαρά υπό πίεση και να σέβονται τους άλλους. Χρησιμοποιώντας το Brazilian Jiu-Jitsu ως βάση, αναπτύσσουμε το παιδί συνολικά — σώμα, μυαλό και χαρακτήρα.",
-    "kids.intro.p2": "Τα μαθήματα είναι κατάλληλα για την ηλικία, ασφαλή και διδάσκονται από υπομονετικούς προπονητές που ξέρουν πώς να κάνουν τη μάθηση διασκεδαστική.",
+    "kids.intro.p1":
+      "Τα μαθήματα Παιδιών & Νέων μαθαίνουν στα παιδιά να κινούνται με αυτοπεποίθηση, να σκέφτονται καθαρά υπό πίεση και να σέβονται τους άλλους. Χρησιμοποιώντας το Brazilian Jiu-Jitsu ως βάση, αναπτύσσουμε το παιδί συνολικά — σώμα, μυαλό και χαρακτήρα.",
+    "kids.intro.p2":
+      "Τα μαθήματα είναι κατάλληλα για την ηλικία, ασφαλή και διδάσκονται από υπομονετικούς προπονητές που ξέρουν πώς να κάνουν τη μάθηση διασκεδαστική.",
     "kids.f1.h4": "Μαθήματα Κατάλληλα για Ηλικία",
     "kids.f1.p": "Ξεχωριστές ομάδες για μικρότερα παιδιά και εφήβους",
     "kids.f2.h4": "Ασφαλές Περιβάλλον",
@@ -860,27 +912,32 @@ const translations = {
     "kids.f4.p": "Σωστές βάσεις BJJ μέσα από διασκεδαστικές, παιχνίδι-βασισμένες δραστηριότητες",
     "kids.fac.eyebrow": "Ο Χώρος",
     "kids.fac.h2": "Ασφαλή Tatami.<br/>Υποστηρικτικοί Προπονητές.",
-    "kids.fac.p": "Τα tatami Zebra είναι ειδικά σχεδιασμένα για grappling — αρκετά μαλακά για νέους αθλητές, αρκετά σταθερά για πραγματική τεχνική. Η ακαδημία καθαρίζεται πριν από κάθε session και οι προπονητές μας ακολουθούν πρακτικές ασφαλούς καθοδήγησης παιδιών.",
+    "kids.fac.p":
+      "Τα tatami Zebra είναι ειδικά σχεδιασμένα για grappling — αρκετά μαλακά για νέους αθλητές, αρκετά σταθερά για πραγματική τεχνική. Η ακαδημία καθαρίζεται πριν από κάθε session και οι προπονητές μας ακολουθούν πρακτικές ασφαλούς καθοδήγησης παιδιών.",
     "kids.prog.eyebrow": "Ηλικιακές Ομάδες",
     "kids.prog.h2": "Μαθήματα για Κάθε Στάδιο",
     "kids.prog.c1.h3": "Μικροί <em>Πολεμιστές</em>",
-    "kids.prog.c1.p": "Ηλικίες 5–8. Εισαγωγικά μαθήματα με παιχνίδια κίνησης, σωματική επίγνωση και εκμάθηση ακολουθίας οδηγιών σε ομάδα.",
+    "kids.prog.c1.p":
+      "Ηλικίες 5–8. Εισαγωγικά μαθήματα με παιχνίδια κίνησης, σωματική επίγνωση και εκμάθηση ακολουθίας οδηγιών σε ομάδα.",
     "kids.prog.c1.li1": "Βασική κίνηση & συντονισμός",
     "kids.prog.c1.li2": "Ακρόαση και ομαδική εργασία",
     "kids.prog.c1.li3": "Αυτοπεποίθηση μέσα από παιχνίδι",
     "kids.prog.c2.h3": "Νεαροί <em>Grapplers</em>",
-    "kids.prog.c2.p": "Ηλικίες 9–13. Θεμελιώδης τεχνική BJJ με ελεγχόμενη ζωντανή εξάσκηση. Τα παιδιά χτίζουν πραγματικές δεξιότητες ενώ αναπτύσσουν εστίαση και σεβασμό.",
+    "kids.prog.c2.p":
+      "Ηλικίες 9–13. Θεμελιώδης τεχνική BJJ με ελεγχόμενη ζωντανή εξάσκηση. Τα παιδιά χτίζουν πραγματικές δεξιότητες ενώ αναπτύσσουν εστίαση και σεβασμό.",
     "kids.prog.c2.li1": "Βασικά BJJ — θέσεις & αποδράσεις",
     "kids.prog.c2.li2": "Δομημένη εξάσκηση & positional games",
     "kids.prog.c2.li3": "Σύστημα προαγωγής ζωνών",
     "kids.prog.c3.h3": "Teen <em>Academy</em>",
-    "kids.prog.c3.p": "Ηλικίες 14–17. Πιο δομημένο πρόγραμμα που γεφυρώνει νεανική και ενήλικη προπόνηση. Οι έφηβοι αναπτύσσουν πειθαρχία, ανθεκτικότητα και αγωνιστική επίγνωση.",
+    "kids.prog.c3.p":
+      "Ηλικίες 14–17. Πιο δομημένο πρόγραμμα που γεφυρώνει νεανική και ενήλικη προπόνηση. Οι έφηβοι αναπτύσσουν πειθαρχία, ανθεκτικότητα και αγωνιστική επίγνωση.",
     "kids.prog.c3.li1": "Ενδιάμεση έως προχωρημένη τεχνική BJJ",
     "kids.prog.c3.li2": "Ελεγχόμενο sparring & προετοιμασία αγώνων",
     "kids.prog.c3.li3": "Καθοδήγηση από έμπειρους προπονητές",
     "kids.ben.eyebrow": "Οφέλη",
     "kids.ben.h2": "Τι Θα Πάρουν Μαζί τους από τα Tatami",
-    "kids.ben.p": "Οι δεξιότητες που αναπτύσσονται στα μαθήματα Παιδιών & Νέων εκτείνονται πολύ πέρα από το γυμναστήριο. Γονείς μας αναφέρουν συνεχώς βελτίωση στη σχολική εστίαση, τη συναισθηματική ρύθμιση και την κοινωνική αυτοπεποίθηση.",
+    "kids.ben.p":
+      "Οι δεξιότητες που αναπτύσσονται στα μαθήματα Παιδιών & Νέων εκτείνονται πολύ πέρα από το γυμναστήριο. Γονείς μας αναφέρουν συνεχώς βελτίωση στη σχολική εστίαση, τη συναισθηματική ρύθμιση και την κοινωνική αυτοπεποίθηση.",
     "kids.b1.h4": "Εστίαση & Προσοχή",
     "kids.b1.p": "Εκμάθηση ακρόασης, ακολουθίας οδηγιών και παρουσίας",
     "kids.b2.h4": "Αυτοπεποίθηση κατά του Εκφοβισμού",
@@ -890,17 +947,21 @@ const translations = {
     "kids.b4.h4": "Σεβασμός & Πειθαρχία",
     "kids.b4.p": "Συνήθειες και αξίες που μεταφέρονται στο σχολείο, την οικογένεια και τη ζωή",
     "kids.cta.h2": "Δώστε τους<br/>Θεμέλιο<br/>για τη Ζωή.",
-    "kids.cta.p1": "Δωρεάν δοκιμαστικό μάθημα χωρίς πίεση και χωρίς απαραίτητο εξοπλισμό. Απλά φέρτε το παιδί σας.",
+    "kids.cta.p1":
+      "Δωρεάν δοκιμαστικό μάθημα χωρίς πίεση και χωρίς απαραίτητο εξοπλισμό. Απλά φέρτε το παιδί σας.",
     "kids.form.message": "Πείτε μας την ηλικία του παιδιού σας και οποιεσδήποτε ερωτήσεις…",
 
     // Corporate Training page
     "corp.hero.eyebrow": "Υπηρεσίες · Εταιρικό",
-    "corp.hero.p": "Ομαδικά sessions σχεδιασμένα για απόδοση και εστίαση. Φέρτε την ομάδα σας στα tatami — ή εμείς έρχεστε σε εσάς.",
+    "corp.hero.p":
+      "Ομαδικά sessions σχεδιασμένα για απόδοση και εστίαση. Φέρτε την ομάδα σας στα tatami — ή εμείς έρχεστε σε εσάς.",
     "corp.hero.cta": "Επικοινωνήστε μαζί μας",
     "corp.intro.eyebrow": "Η Προσφορά",
     "corp.intro.h2": "Η Υψηλή Απόδοση<br/>Ξεκινά από τη <em>Νοοτροπία</em>",
-    "corp.intro.p1": "Οι ίδιες αρχές που κάνουν ελίτ αθλητές — εστίαση, ψυχραιμία υπό πίεση, στρατηγική σκέψη και ανάκαμψη — είναι ακριβώς αυτό που χρειάζονται οι υψηλών επιδόσεων ομάδες.",
-    "corp.intro.p2": "Είτε αναζητάτε μια μοναδική εμπειρία ομαδοποίησης, τακτικά wellness sessions ή ανάπτυξη ηγεσίας μέσω πολεμικών τεχνών, σχεδιάζουμε ένα πρόγραμμα γύρω από τους στόχους και το πρόγραμμα της ομάδας σας.",
+    "corp.intro.p1":
+      "Οι ίδιες αρχές που κάνουν ελίτ αθλητές — εστίαση, ψυχραιμία υπό πίεση, στρατηγική σκέψη και ανάκαμψη — είναι ακριβώς αυτό που χρειάζονται οι υψηλών επιδόσεων ομάδες.",
+    "corp.intro.p2":
+      "Είτε αναζητάτε μια μοναδική εμπειρία ομαδοποίησης, τακτικά wellness sessions ή ανάπτυξη ηγεσίας μέσω πολεμικών τεχνών, σχεδιάζουμε ένα πρόγραμμα γύρω από τους στόχους και το πρόγραμμα της ομάδας σας.",
     "corp.f1.h4": "Προσαρμοσμένο στην Ομάδα σας",
     "corp.f1.p": "Δεν υπάρχουν δύο εταιρείες ίδιες — ούτε τα προγράμματά μας",
     "corp.f2.h4": "Στο Γυμναστήριό μας ή στο Δικό σας",
@@ -911,43 +972,54 @@ const translations = {
     "corp.f4.p": "Πρωί, μεσημέρι ή μετά τη δουλειά — εργαζόμαστε γύρω από εσάς",
     "corp.fac.eyebrow": "Ο Χώρος",
     "corp.fac.h2": "Ένας Χώρος<br/>Φτιαγμένος για Εστίαση",
-    "corp.fac.p": "Στη Θεσσαλονίκης 35 στο κέντρο της Αθήνας, η ακαδημία μας προσφέρει ένα επαγγελματικό περιβάλλον μακριά από το γραφείο — η τέλεια επαναφορά για κάθε ομάδα.",
+    "corp.fac.p":
+      "Στη Θεσσαλονίκης 35 στο κέντρο της Αθήνας, η ακαδημία μας προσφέρει ένα επαγγελματικό περιβάλλον μακριά από το γραφείο — η τέλεια επαναφορά για κάθε ομάδα.",
     "corp.prog.eyebrow": "Επιλογές Προγράμματος",
     "corp.prog.h2": "Πώς Συνεργαζόμαστε",
     "corp.prog.c1.h3": "<em>Εμπειρία</em> Ομάδας",
-    "corp.prog.c1.p": "Μια μοναδική συνεδρία που εισάγει την ομάδα σας στις αρχές BJJ — συνεργασία, επίλυση προβλημάτων υπό πίεση και εμπιστοσύνη.",
+    "corp.prog.c1.p":
+      "Μια μοναδική συνεδρία που εισάγει την ομάδα σας στις αρχές BJJ — συνεργασία, επίλυση προβλημάτων υπό πίεση και εμπιστοσύνη.",
     "corp.prog.c1.li1": "Μισής ή ολόκληρης ημέρας",
     "corp.prog.c1.li2": "Αποτίμηση που συνδέει τα μαθήματα με τον χώρο εργασίας",
     "corp.prog.c1.li3": "Έως 20 συμμετέχοντες",
     "corp.prog.c2.h3": "Τακτικό <em>Wellness</em>",
-    "corp.prog.c2.p": "Εβδομαδιαία ή δύο φορές την εβδομάδα sessions για ομάδες που θέλουν συνεχή φυσική κατάσταση και νοητικά οφέλη.",
+    "corp.prog.c2.p":
+      "Εβδομαδιαία ή δύο φορές την εβδομάδα sessions για ομάδες που θέλουν συνεχή φυσική κατάσταση και νοητικά οφέλη.",
     "corp.prog.c2.li1": "Δομημένες συνεδρίες 1 ώρας",
     "corp.prog.c2.li2": "Συνδυασμός κίνησης & κατάστασης",
     "corp.prog.c2.li3": "Κλιμακωτό για μικτά επίπεδα φυσικής κατάστασης",
     "corp.prog.c3.h3": "Εντατικό <em>Ηγεσίας</em>",
-    "corp.prog.c3.p": "Ένα δομημένο πρόγραμμα που χρησιμοποιεί τη μεθοδολογία BJJ για την ανάπτυξη ηγετικών χαρακτηριστικών — ψυχραιμία, προσαρμοστικότητα και απόδοση υπό πίεση.",
+    "corp.prog.c3.p":
+      "Ένα δομημένο πρόγραμμα που χρησιμοποιεί τη μεθοδολογία BJJ για την ανάπτυξη ηγετικών χαρακτηριστικών — ψυχραιμία, προσαρμοστικότητα και απόδοση υπό πίεση.",
     "corp.prog.c3.li1": "Πολλαπλών sessions πρόγραμμα",
     "corp.prog.c3.li2": "Προσαρμοσμένο για ηγετικές ομάδες",
     "corp.prog.c3.li3": "Διαθέσιμη καθοδήγηση μετά το πρόγραμμα",
     "corp.why.eyebrow": "Γιατί Πολεμικές Τέχνες",
     "corp.why.h2": "Η Επιχειρηματική Βάση για BJJ",
-    "corp.why.p": "Εταιρείες που επενδύουν στη φυσική και νοητική ευεξία της ομάδας τους βλέπουν μετρήσιμες αποδόσεις σε εστίαση, συνοχή και ανθεκτικότητα.",
+    "corp.why.p":
+      "Εταιρείες που επενδύουν στη φυσική και νοητική ευεξία της ομάδας τους βλέπουν μετρήσιμες αποδόσεις σε εστίαση, συνοχή και ανθεκτικότητα.",
     "corp.w1.h4": "Μείωση Άγχους",
-    "corp.w1.p": "Η φυσική προπόνηση είναι ένα από τα πιο αποτελεσματικά εργαλεία για τη διαχείριση επαγγελματικής πίεσης",
+    "corp.w1.p":
+      "Η φυσική προπόνηση είναι ένα από τα πιο αποτελεσματικά εργαλεία για τη διαχείριση επαγγελματικής πίεσης",
     "corp.w2.h4": "Συνοχή Ομάδας",
-    "corp.w2.p": "Η κοινή φυσική πρόκληση χτίζει εμπιστοσύνη πιο γρήγορα από τις περισσότερες δραστηριότητες",
+    "corp.w2.p":
+      "Η κοινή φυσική πρόκληση χτίζει εμπιστοσύνη πιο γρήγορα από τις περισσότερες δραστηριότητες",
     "corp.w3.h4": "Επίλυση Προβλημάτων",
-    "corp.w3.p": "Το BJJ είναι ζωντανό σκάκι — εκπαιδεύει την προσαρμοστική σκέψη υπό πραγματικούς περιορισμούς",
+    "corp.w3.p":
+      "Το BJJ είναι ζωντανό σκάκι — εκπαιδεύει την προσαρμοστική σκέψη υπό πραγματικούς περιορισμούς",
     "corp.w4.h4": "Διατηρημένη Ενέργεια",
-    "corp.w4.p": "Η τακτική φυσική προπόνηση βελτιώνει τη γνωστική απόδοση καθ' όλη τη διάρκεια της εργάσιμης ημέρας",
+    "corp.w4.p":
+      "Η τακτική φυσική προπόνηση βελτιώνει τη γνωστική απόδοση καθ' όλη τη διάρκεια της εργάσιμης ημέρας",
     "corp.cta.h2": "Φέρτε την Ομάδα σας<br/>στα Tatami.",
-    "corp.cta.p1": "Πείτε μας για την ομάδα και τους στόχους σας — θα ετοιμάσουμε πρόταση που ταιριάζει στον οργανισμό και τον προϋπολογισμό σας.",
+    "corp.cta.p1":
+      "Πείτε μας για την ομάδα και τους στόχους σας — θα ετοιμάσουμε πρόταση που ταιριάζει στον οργανισμό και τον προϋπολογισμό σας.",
     "corp.form.message": "Πείτε μας το μέγεθος της ομάδας σας και τι αναζητάτε…",
     "corp.form.btn": "Αποστολή Αιτήματος",
 
     // Weekly Schedule page
     "sched.hero.eyebrow": "Υπηρεσίες · Πρόγραμμα",
-    "sched.hero.p": "Μαθήματα από Δευτέρα έως Σάββατο. Κλείστε τη θέση σας online ή επικοινωνήστε μαζί μας — οι θέσεις είναι περιορισμένες.",
+    "sched.hero.p":
+      "Μαθήματα από Δευτέρα έως Σάββατο. Κλείστε τη θέση σας online ή επικοινωνήστε μαζί μας — οι θέσεις είναι περιορισμένες.",
     "sched.hero.cta": "Κλείστε Μάθημα",
     "sched.table.eyebrow": "Χρονοδιάγραμμα",
     "sched.table.h2": "Μαθήματα Εβδομάδας",
@@ -982,10 +1054,12 @@ const translations = {
     "sched.legend.kids": "Παιδιά & Νέοι",
     "sched.legend.open": "Open Mat",
     "sched.note.title": "Σημείωση:",
-    "sched.note.body": " Οι ώρες μαθημάτων ενδέχεται να αλλάζουν κατά τις αργίες. Συνιστούμε να επιβεβαιώνετε τη θέση σας επικοινωνώντας μαζί μας ή κάνοντας online κράτηση. Τα sessions Δύναμης & Κατάστασης απαιτούν προκαταβολική κράτηση.",
+    "sched.note.body":
+      " Οι ώρες μαθημάτων ενδέχεται να αλλάζουν κατά τις αργίες. Συνιστούμε να επιβεβαιώνετε τη θέση σας επικοινωνώντας μαζί μας ή κάνοντας online κράτηση. Τα sessions Δύναμης & Κατάστασης απαιτούν προκαταβολική κράτηση.",
     "sched.priv.eyebrow": "Ευέλικτες Επιλογές",
     "sched.priv.h2": "Δεν Μπορείτε να Έρθετε Στο Κανονικό Πρόγραμμα;",
-    "sched.priv.p": "Προσφέρουμε ιδιωτικές και ημι-ιδιωτικές συνεδρίες σε ώρες που σας εξυπηρετούν. Θα βρούμε χρόνο που ταιριάζει ανεξαρτήτως προγράμματος.",
+    "sched.priv.p":
+      "Προσφέρουμε ιδιωτικές και ημι-ιδιωτικές συνεδρίες σε ώρες που σας εξυπηρετούν. Θα βρούμε χρόνο που ταιριάζει ανεξαρτήτως προγράμματος.",
     "sched.priv.btn": "Επικοινωνήστε μαζί μας →",
     "sched.priv.f1.h4": "Ιδιωτικές Συνεδρίες BJJ",
     "sched.priv.f1.p": "Ένα-προς-ένα με IBJJF-πιστοποιημένο προπονητή, όποτε σας εξυπηρετεί",
@@ -996,30 +1070,40 @@ const translations = {
     "sched.priv.f4.h4": "Drop-In Ευπρόσδεκτοι",
     "sched.priv.f4.p": "Επισκέπτεστε Αθήνα; Το Open Mat Σαββάτου δέχεται όλες τις σχολές",
     "sched.cta.h2": "Κρατήστε τη Θέση σας Σήμερα.",
-    "sched.cta.p1": "Οι θέσεις είναι περιορισμένες ώστε κάθε μαθητής να λαμβάνει σωστή καθοδήγηση. Κλείστε εκ των προτέρων για να εξασφαλίσετε τη θέση σας.",
+    "sched.cta.p1":
+      "Οι θέσεις είναι περιορισμένες ώστε κάθε μαθητής να λαμβάνει σωστή καθοδήγηση. Κλείστε εκ των προτέρων για να εξασφαλίσετε τη θέση σας.",
     "sched.form.message": "Ποιο μάθημα ή session σας ενδιαφέρει;",
     "sched.official.eyebrow": "Επίσημο Πρόγραμμα",
     "sched.types.eyebrow": "Τύποι Μαθημάτων",
     "sched.types.h2": "Τι Περιλαμβάνει Κάθε Μάθημα",
-    "sched.types.p": "Δομημένα, εστιασμένα και με έμπειρους προπονητές σε σύγχρονο χώρο. Τα μαθήματα γίνονται στα αγγλικά με υποστήριξη στα ελληνικά.",
+    "sched.types.p":
+      "Δομημένα, εστιασμένα και με έμπειρους προπονητές σε σύγχρονο χώρο. Τα μαθήματα γίνονται στα αγγλικά με υποστήριξη στα ελληνικά.",
     "sched.t1.h3": "BJJ <em>Μικτά Επίπεδα</em>",
-    "sched.t1.p": "Κατάλληλο για αρχάριους και έμπειρους μαθητές που προπονούνται μαζί. Τεχνική, μόχλευση, έλεγχος και ψυχραιμία υπό πίεση.",
+    "sched.t1.p":
+      "Κατάλληλο για αρχάριους και έμπειρους μαθητές που προπονούνται μαζί. Τεχνική, μόχλευση, έλεγχος και ψυχραιμία υπό πίεση.",
     "sched.t2.h3": "BJJ <em>Βασικές Αρχές</em>",
-    "sched.t2.p": "Ιδανικό για αρχάριους που χτίζουν δυνατές τεχνικές βάσεις. Εστίαση σε βασικές θέσεις, κινήσεις και ασφάλεια.",
+    "sched.t2.p":
+      "Ιδανικό για αρχάριους που χτίζουν δυνατές τεχνικές βάσεις. Εστίαση σε βασικές θέσεις, κινήσεις και ασφάλεια.",
     "sched.t3.h3": "<em>Πάλη</em>",
-    "sched.t3.p": "Τεχνική και positional εστίαση σε ρίψεις, ισορροπία, σωματικό έλεγχο και αθλητική κίνηση.",
+    "sched.t3.p":
+      "Τεχνική και positional εστίαση σε ρίψεις, ισορροπία, σωματικό έλεγχο και αθλητική κίνηση.",
     "sched.t4.h3": "Πάλη <em>Βασικές Αρχές</em>",
-    "sched.t4.p": "Βασικές κινήσεις, είσοδοι και σωματικός έλεγχος για όσους ξεκινούν ή θέλουν να χτίσουν σταθερές βάσεις.",
+    "sched.t4.p":
+      "Βασικές κινήσεις, είσοδοι και σωματικός έλεγχος για όσους ξεκινούν ή θέλουν να χτίσουν σταθερές βάσεις.",
     "sched.t5.h3": "<em>MMA</em>",
-    "sched.t5.p": "Συνδυάζει grappling, κίνηση και βασικά στοιχεία κατάστασης. Τεχνικό και φιλικό για αρχάριους με προτεραιότητα στην ασφάλεια.",
+    "sched.t5.p":
+      "Συνδυάζει grappling, κίνηση και βασικά στοιχεία κατάστασης. Τεχνικό και φιλικό για αρχάριους με προτεραιότητα στην ασφάλεια.",
     "sched.t6.h3": "Πρόγραμμα <em>Παιδιών</em>",
-    "sched.t6.p": "Χτίζει αυτοπεποίθηση, πειθαρχία, συντονισμό και σεβασμό μέσα από κατάλληλη για την ηλικία προπόνηση σε ασφαλές, διασκεδαστικό περιβάλλον.",
+    "sched.t6.p":
+      "Χτίζει αυτοπεποίθηση, πειθαρχία, συντονισμό και σεβασμό μέσα από κατάλληλη για την ηλικία προπόνηση σε ασφαλές, διασκεδαστικό περιβάλλον.",
     "sched.t7.h3": "<em>Open Mat</em>",
-    "sched.t7.p": "Ελεύθερη προπόνηση ανοιχτή σε όλα τα επίπεδα και σχολές. Σεβαστικό, εγωισμό-ελεύθερο περιβάλλον για drilling, rolling και βελτίωση.",
+    "sched.t7.p":
+      "Ελεύθερη προπόνηση ανοιχτή σε όλα τα επίπεδα και σχολές. Σεβαστικό, εγωισμό-ελεύθερο περιβάλλον για drilling, rolling και βελτίωση.",
 
     // BJJ achievements section
     "bjj.ach.eyebrow": "Αποδεδειγμένα Αποτελέσματα",
     "bjj.ach.h2": "Ιστορικό<br/>Αγώνων",
-    "bjj.ach.p": "Οι αθλητές μας αγωνίζονται — και κερδίζουν — σε NAGA και άλλες διεθνείς αγωνιστικές διοργανώσεις. Είτε θέλετε να δοκιμαστείτε στον αγωνιστικό χώρο είτε απλά να βελτιωθείτε στα tatami, θα προπονείστε δίπλα σε ανθρώπους που αντιμετωπίζουν σοβαρά τον αθλητισμό.",
+    "bjj.ach.p":
+      "Οι αθλητές μας αγωνίζονται — και κερδίζουν — σε NAGA και άλλες διεθνείς αγωνιστικές διοργανώσεις. Είτε θέλετε να δοκιμαστείτε στον αγωνιστικό χώρο είτε απλά να βελτιωθείτε στα tatami, θα προπονείστε δίπλα σε ανθρώπους που αντιμετωπίζουν σοβαρά τον αθλητισμό.",
   },
 };

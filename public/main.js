@@ -85,7 +85,8 @@ async function handleSubmit(e) {
     btn.disabled = false;
     btn.textContent = translations[lang]["form.send"] || "Send Message";
     note.style.color = "#b03a2e";
-    note.textContent = translations[lang]["form.error"] || "Something went wrong. Please try again.";
+    note.textContent =
+      translations[lang]["form.error"] || "Something went wrong. Please try again.";
   }
 }
 

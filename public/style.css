@@ -223,7 +223,9 @@ img {
   display: flex;
   color: var(--off-white);
   opacity: 0.5;
-  transition: opacity 0.2s, color 0.2s;
+  transition:
+    opacity 0.2s,
+    color 0.2s;
 }
 
 .nav-social a:hover {
@@ -312,8 +314,13 @@ img {
   inset: 0;
   background:
     radial-gradient(ellipse 80% 80% at 70% 50%, rgba(200, 169, 110, 0.07) 0%, transparent 70%),
-    linear-gradient(to right, rgba(10,10,10,0.88) 38%, rgba(10,10,10,0.50) 65%, rgba(10,10,10,0.20) 100%),
-    url('assets/jiu-jitsu%20(1).png') center / cover no-repeat;
+    linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.88) 38%,
+      rgba(10, 10, 10, 0.5) 65%,
+      rgba(10, 10, 10, 0.2) 100%
+    ),
+    url("assets/jiu-jitsu%20(1).png") center / cover no-repeat;
 }
 
 .hero-circle {
@@ -933,7 +940,9 @@ img {
   height: 36px;
   border: 1px solid var(--border-strong);
   color: var(--off-white);
-  transition: color 0.2s, border-color 0.2s;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .footer-social a:hover {
@@ -1065,37 +1074,49 @@ img {
 
 /* ===== PAGE HERO VARIANTS (background images) ===== */
 .page-hero--bjj {
-  background-image: linear-gradient(to right, rgba(10,10,10,0.92) 45%, rgba(10,10,10,0.55) 100%), url('assets/banner.jpeg');
+  background-image:
+    linear-gradient(to right, rgba(10, 10, 10, 0.92) 45%, rgba(10, 10, 10, 0.55) 100%),
+    url("assets/banner.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .page-hero--ft {
-  background-image: linear-gradient(to right, rgba(10,10,10,0.92) 45%, rgba(10,10,10,0.55) 100%), url('assets/faq-streght-and-conditioning-scaled.jpg');
+  background-image:
+    linear-gradient(to right, rgba(10, 10, 10, 0.92) 45%, rgba(10, 10, 10, 0.55) 100%),
+    url("assets/faq-streght-and-conditioning-scaled.jpg");
   background-size: cover;
   background-position: center right;
 }
 
 .page-hero--kids {
-  background-image: linear-gradient(to right, rgba(10,10,10,0.92) 45%, rgba(10,10,10,0.55) 100%), url('assets/kids-martial-arts-scaled.jpg');
+  background-image:
+    linear-gradient(to right, rgba(10, 10, 10, 0.92) 45%, rgba(10, 10, 10, 0.55) 100%),
+    url("assets/kids-martial-arts-scaled.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .page-hero--corp {
-  background-image: linear-gradient(to right, rgba(10,10,10,0.92) 45%, rgba(10,10,10,0.55) 100%), url('assets/kids.jpeg');
+  background-image:
+    linear-gradient(to right, rgba(10, 10, 10, 0.92) 45%, rgba(10, 10, 10, 0.55) 100%),
+    url("assets/kids.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .page-hero--sched {
-  background-image: linear-gradient(to right, rgba(10,10,10,0.92) 45%, rgba(10,10,10,0.55) 100%), url('assets/Jiu-Jitsu.png');
+  background-image:
+    linear-gradient(to right, rgba(10, 10, 10, 0.92) 45%, rgba(10, 10, 10, 0.55) 100%),
+    url("assets/Jiu-Jitsu.png");
   background-size: cover;
   background-position: center;
 }
 
 .page-hero--about {
-  background-image: linear-gradient(to right, rgba(10,10,10,0.92) 45%, rgba(10,10,10,0.55) 100%), url('assets/featured-image-1.jpeg');
+  background-image:
+    linear-gradient(to right, rgba(10, 10, 10, 0.92) 45%, rgba(10, 10, 10, 0.55) 100%),
+    url("assets/featured-image-1.jpeg");
   background-size: cover;
   background-position: center top;
 }
