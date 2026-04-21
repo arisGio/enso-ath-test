@@ -207,6 +207,10 @@ img {
   background: #e0bf84 !important;
 }
 
+.nav-social {
+  display: none;
+}
+
 .lang-switcher {
   display: flex;
   align-items: center;
@@ -1374,6 +1378,29 @@ img {
 
   .nav-toggle.open span:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .nav-social {
+    display: flex;
+    gap: 24px;
+    margin-top: 8px;
+  }
+
+  .nav-social a {
+    display: flex;
+    color: var(--off-white);
+    opacity: 0.6;
+    transition: opacity 0.2s, color 0.2s;
+  }
+
+  .nav-social a:hover {
+    opacity: 1;
+    color: var(--accent);
+  }
+
+  .nav-social svg {
+    width: 22px;
+    height: 22px;
   }
 
   .hero {
