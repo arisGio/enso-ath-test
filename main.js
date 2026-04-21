@@ -56,18 +56,37 @@ if (fadeEls.length) {
 }
 
 // Contact form
-function handleSubmit(e) {
+async function handleSubmit(e) {
   e.preventDefault();
   const note = document.getElementById("formNote");
   const btn = e.target.querySelector("button[type=submit]");
   const lang = getLang();
+
   btn.disabled = true;
   btn.textContent = translations[lang]["form.sending"];
-  setTimeout(() => {
-    btn.textContent = translations[lang]["form.sent"];
-    if (note) note.textContent = translations[lang]["form.success"];
-    e.target.reset();
-  }, 1200);
+  note.textContent = "";
+
+  try {
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(Object.fromEntries(new FormData(e.target))),
+    });
+    const data = await res.json();
+    if (data.success) {
+      btn.textContent = translations[lang]["form.sent"];
+      note.style.color = "";
+      note.textContent = translations[lang]["form.success"];
+      e.target.reset();
+    } else {
+      throw new Error(data.message);
+    }
+  } catch {
+    btn.disabled = false;
+    btn.textContent = translations[lang]["form.send"] || "Send Message";
+    note.style.color = "#b03a2e";
+    note.textContent = translations[lang]["form.error"] || "Something went wrong. Please try again.";
+  }
 }
 
 // ===== i18n =====
