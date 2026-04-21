@@ -9,14 +9,21 @@ const navToggle = document.getElementById("navToggle");
 const navLinks = document.getElementById("navLinks");
 if (navToggle && navLinks) {
   navToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("open");
+    const isOpen = navLinks.classList.toggle("open");
     navToggle.classList.toggle("open");
+    // Lock body scroll (position:fixed required for iOS Safari)
+    document.body.style.overflow = isOpen ? "hidden" : "";
+    document.body.style.position = isOpen ? "fixed" : "";
+    document.body.style.width = isOpen ? "100%" : "";
   });
   navLinks.querySelectorAll("a").forEach((a) => {
     a.addEventListener("click", () => {
       if (window.innerWidth <= 900 && a.parentElement.classList.contains("has-dropdown")) return;
       navLinks.classList.remove("open");
       navToggle.classList.remove("open");
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+      document.body.style.width = "";
     });
   });
 
