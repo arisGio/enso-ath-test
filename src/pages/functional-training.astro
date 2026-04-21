@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Functional Training – Ensō Athens Martial Arts">
@@ -74,7 +75,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <section class="about-teaser fade-up">
       <div class="about-teaser-img">
         <img
-          src="/assets/faq-streght-and-conditioning-scaled.jpg"
+          src={base + "assets/faq-streght-and-conditioning-scaled.jpg"}
           alt="Ensō Athens – Strength & Conditioning area"
           loading="lazy"
         />

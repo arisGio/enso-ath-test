@@ -4,7 +4,12 @@ interface Props {
 }
 const { title } = Astro.props;
 const pathname = Astro.url.pathname;
-const is = (path: string) => pathname === path || pathname === path + "/";
+const base = import.meta.env.BASE_URL;
+const is = (path: string) => {
+  const full = base.replace(/\/$/, "") + path;
+  return pathname === full || pathname === full + "/";
+};
+const url = (path: string) => base.replace(/\/$/, "") + path;
 ---
 
 <!doctype html>
@@ -19,13 +24,13 @@ const is = (path: string) => pathname === path || pathname === path + "/";
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href={url("/style.css")} />
   </head>
 
   <body>
     <nav id="nav">
-      <a href="/" class="nav-logo">
-        <img src="/assets/logo.webp" alt="Ensō Athens Martial Arts" class="nav-logo-img" />
+      <a href={url("/")} class="nav-logo">
+        <img src={url("/assets/logo.webp")} alt="Ensō Athens Martial Arts" class="nav-logo-img" />
       </a>
       <button class="nav-toggle" id="navToggle" aria-label="Menu">
         <span></span>
@@ -33,19 +38,19 @@ const is = (path: string) => pathname === path || pathname === path + "/";
         <span></span>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="/" class={is("/") ? "active" : ""} data-i18n="nav.home">Home</a></li>
-        <li><a href="/about" class={is("/about") ? "active" : ""} data-i18n="nav.about">About</a></li>
+        <li><a href={url("/")} class={is("/") ? "active" : ""} data-i18n="nav.home">Home</a></li>
+        <li><a href={url("/about")} class={is("/about") ? "active" : ""} data-i18n="nav.about">About</a></li>
         <li class="has-dropdown">
           <a href="#" data-i18n="nav.services">Services</a>
           <ul class="dropdown">
-            <li><a href="/jiu-jitsu" class={is("/jiu-jitsu") ? "active" : ""} data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a></li>
-            <li><a href="/functional-training" class={is("/functional-training") ? "active" : ""} data-i18n="nav.functional">Functional Training</a></li>
-            <li><a href="/kids" class={is("/kids") ? "active" : ""} data-i18n="nav.kids">Kids & Youth</a></li>
-            <li><a href="/corporate" class={is("/corporate") ? "active" : ""} data-i18n="nav.corporate">Corporate Training</a></li>
-            <li><a href="/schedule" class={is("/schedule") ? "active" : ""} data-i18n="nav.schedule">Weekly Schedule</a></li>
+            <li><a href={url("/jiu-jitsu")} class={is("/jiu-jitsu") ? "active" : ""} data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a></li>
+            <li><a href={url("/functional-training")} class={is("/functional-training") ? "active" : ""} data-i18n="nav.functional">Functional Training</a></li>
+            <li><a href={url("/kids")} class={is("/kids") ? "active" : ""} data-i18n="nav.kids">Kids & Youth</a></li>
+            <li><a href={url("/corporate")} class={is("/corporate") ? "active" : ""} data-i18n="nav.corporate">Corporate Training</a></li>
+            <li><a href={url("/schedule")} class={is("/schedule") ? "active" : ""} data-i18n="nav.schedule">Weekly Schedule</a></li>
           </ul>
         </li>
-        <li><a href="/contact" class={is("/contact") ? "active" : ""} data-i18n="nav.contact">Contact</a></li>
+        <li><a href={url("/contact")} class={is("/contact") ? "active" : ""} data-i18n="nav.contact">Contact</a></li>
         <li><a href="tel:+306971767652" class="nav-phone">+30 697 176 7652</a></li>
         <li class="lang-switcher">
           <button class="lang-btn" data-lang="en" aria-label="English">🇺🇸</button>
@@ -70,15 +75,15 @@ const is = (path: string) => pathname === path || pathname === path + "/";
     <footer class="footer">
       <div class="footer-top">
         <div class="footer-brand">
-          <img src="/assets/logo.webp" alt="Ensō Athens Martial Arts" class="footer-logo" />
+          <img src={url("/assets/logo.webp")} alt="Ensō Athens Martial Arts" class="footer-logo" />
           <p data-i18n="footer.tagline">Athens Martial Arts</p>
           <a href="https://www.google.com/maps/place/Ens%C5%8D+Athens+Martial+Arts+%26+Jiu+Jitsu/@37.9749023,23.710368,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd9d8508fc35:0x43e80050a02b8c3d!8m2!3d37.9749023!4d23.7129429!16s%2Fg%2F11vry4tz08?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="footer-addr"><span data-i18n="footer.addr">Thessalonikis 35, Athens 11851, Greece</span></a>
         </div>
         <nav class="footer-nav">
-          <a href="/" data-i18n="nav.home">Home</a>
-          <a href="/about" data-i18n="nav.about">About</a>
-          <a href="/jiu-jitsu" data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a>
-          <a href="/contact" data-i18n="nav.contact">Contact</a>
+          <a href={url("/")} data-i18n="nav.home">Home</a>
+          <a href={url("/about")} data-i18n="nav.about">About</a>
+          <a href={url("/jiu-jitsu")} data-i18n="nav.jiu-jitsu">Jiu-Jitsu</a>
+          <a href={url("/contact")} data-i18n="nav.contact">Contact</a>
         </nav>
         <div class="footer-contact">
           <a href="tel:+306971767652">
@@ -112,7 +117,6 @@ const is = (path: string) => pathname === path || pathname === path + "/";
       </div>
     </footer>
 
-    <script src="/translations.js" is:inline></script>
-    <script src="/main.js" is:inline></script>
+    <Fragment set:html={`<script src="${url('/translations.js')}"></script><script src="${url('/main.js')}"></script>`} />
   </body>
 </html>
